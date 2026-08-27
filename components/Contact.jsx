@@ -9,9 +9,11 @@ import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div
+      id='contact'
+      className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-[#00bfff]'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -40,8 +42,7 @@ const Contact = () => {
                   <a
                     href='https://www.linkedin.com/in/clint-briley-50056920a/'
                     target='_blank'
-                    rel='noreferrer'
-                  >
+                    rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
@@ -49,8 +50,7 @@ const Contact = () => {
                   <a
                     href='https://github.com/fireclint'
                     target='_blank'
-                    rel='noreferrer'
-                  >
+                    rel='noreferrer'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
@@ -77,8 +77,7 @@ const Contact = () => {
               <form
                 action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
                 method='POST'
-                encType='multipart/form-data'
-              >
+                encType='multipart/form-data'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
@@ -120,8 +119,7 @@ const Contact = () => {
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
-                    name='message'
-                  ></textarea>
+                    name='message'></textarea>
                 </div>
                 <button className='w-full p-4 text-gray-100 mt-4'>
                   Send Message
@@ -135,7 +133,7 @@ const Contact = () => {
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
+                  className='text-[#00bfff]'
                   size={30}
                 />
               </div>
