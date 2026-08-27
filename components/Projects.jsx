@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import weatherAppImg from '../public/assets/projects/weatherApp.jpg';
+import entertainmentSearchImg from '../public/assets/projects/entertainmentSearch.jpg';
+import billSplitterImg from '../public/assets/projects/billSplitter.jpg';
+import passwordGeneratorImg from '../public/assets/projects/passwordGenerator.jpg';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -20,27 +20,23 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
+            backgroundImg={weatherAppImg}    
             tech='React JS'
           />
           <ProjectItem
             title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
+            backgroundImg={entertainmentSearchImg}
             tech='React JS'
           />
           <ProjectItem
             title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            backgroundImg={billSplitterImg}
             tech='React JS'
           />
           <ProjectItem
             title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
+            backgroundImg={passwordGeneratorImg}
+            tech='HTML, CSS, JavaScript'
           />
         </div>
       </div>
