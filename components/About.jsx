@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import About_IMG from '../public/assets/about.jpg';
 
 const About = () => {
   return (
@@ -11,33 +11,19 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#00bfff]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+          <h2 className='py-4 text-gray-300'>Who I Am</h2>
+          <p className='py-2 text-gray-200'>
+            I started learning to code during my senior year of high school, when I took an Introduction to Programming course and learned Python. The course was extremely fun and made me want to learn more about coding. In college, I learned C++ and worked on systems-level projects through the terminal, which helped build my coding foundation. Afterward, I began learning web development with HTML, CSS, and JavaScript, creating a couple of basic static-site projects.
+</p>
+          <p className='py-2 text-gray-200'>
+            When I moved on to React, it really made me want to pursue web development. I had a lot of fun learning how to manipulate the DOM and create impressive, interactive websites. I complemented React with the MERN stack, MongoDB, Express, and Node.js, to build projects that combined front-end and back-end development. I then learned additional technologies, such as Next.js and Tailwind CSS.
           </p>
-          <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+           <p className='py-2 text-gray-200'>
+            This gave me a better understanding of the web as a whole and how its components work together in each project to communicate between the client and server. These projects helped me understand how the web interacts with users and how projects function within an environment. They have definitely inspired me to continue pursuing web development and creating even more interactive websites!
           </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
-            </p>
-          </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+        <div className='w-full h-auto m-auto shadow-xl shadow-gray-100 hover:shadow-[#00bfff] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+          <Image src={About_IMG} className='rounded-xl' alt='/' width={756} height={1008}/>
         </div>
       </div>
     </div>
