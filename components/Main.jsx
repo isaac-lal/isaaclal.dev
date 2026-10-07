@@ -11,14 +11,14 @@ const Main = () => {
       className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='uppercase text-sm tracking-widest text-gray-100'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
-          <h1 className='py-4 text-gray-700'>
+          <h1 className='py-4 text-gray-300'>
             Hi, I&#39;m <span className='text-[#00bfff]'> Isaac</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Web Developer</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+          <h1 className='py-2 text-gray-300'>A Web Developer</h1>
+          <p className='py-4 text-gray-100 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications
             integrating back-end technologies.
           </p>
@@ -27,7 +27,7 @@ const Main = () => {
               href='https://www.linkedin.com/in/isaac-lal/'
               target='_blank'
               rel='noreferrer'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
             </a>
@@ -35,17 +35,17 @@ const Main = () => {
               href='https://github.com/isaac-lal'
               target='_blank'
               rel='noreferrer'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <Link href='mailto:isaaclal124@gmail.com'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <Link href='https://drive.google.com/file/d/1t49qY5hB5HiJJeOpuKQQ4UUfWnGKEKsB/view?usp=sharing'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
             </Link>
