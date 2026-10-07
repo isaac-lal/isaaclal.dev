@@ -19,7 +19,7 @@ const Projects = () => {
         </p>
         <h2 className='py-4 text-gray-300'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
@@ -32,19 +32,21 @@ const Projects = () => {
               <p className='pb-4 pt-2 text-white text-center'>
                 React, TailwindCSS
               </p>
+            <div className='flex justify-center gap-8'>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Demo
                 </p>
               </Link>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Code
                 </p>
               </Link>
+              </div>
             </div>
           </div>
-          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
@@ -57,19 +59,21 @@ const Projects = () => {
               <p className='pb-4 pt-2 text-white text-center'>
                 React, TailwindCSS
               </p>
+              <div className='flex justify-center gap-8'>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Demo
                 </p>
               </Link>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Code
                 </p>
               </Link>
+              </div>
             </div>
           </div>
-          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
@@ -82,19 +86,21 @@ const Projects = () => {
               <p className='pb-4 pt-2 text-white text-center'>
                 React, TailwindCSS
               </p>
+              <div className='flex justify-center gap-8'>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Demo
                 </p>
               </Link>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Code
                 </p>
               </Link>
+              </div>
             </div>
           </div>
-          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
@@ -107,16 +113,18 @@ const Projects = () => {
               <p className='pb-4 pt-2 text-white text-center'>
                 React, TailwindCSS
               </p>
+              <div className='flex justify-center gap-8'>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Demo
                 </p>
               </Link>
               <Link href='https://www.isaaclal.dev/'>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>
+                <p className='cursor-pointer rounded-xl border border-gray-300 bg-[#111111] px-6 py-3 text-center text-lg font-bold text-gray-200 ease-in duration-300 hover:scale-105 hover:bg-[#00bfff] hover:text-[#111111]'>
                   Code
                 </p>
               </Link>
+              </div>
             </div>
           </div>
         </div>
