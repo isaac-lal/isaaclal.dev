@@ -69,19 +69,19 @@ const Navbar = () => {
           <ul
             style={{ color: `${linkColor}` }}
             className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm text-gray-100  uppercase hover:text-[#00bfff] hover:border-b border-[#00bfff] ease-in duration-100'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm text-gray-100  uppercase hover:text-[#00bfff] hover:border-b border-[#00bfff] ease-in duration-100'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm text-gray-100  uppercase hover:text-[#00bfff] hover:border-b border-[#00bfff] ease-in duration-100'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm text-gray-100  uppercase hover:text-[#00bfff] hover:border-b border-[#00bfff] ease-in duration-100'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm text-gray-100  uppercase hover:text-[#00bfff] hover:border-b border-[#00bfff] ease-in duration-100'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
