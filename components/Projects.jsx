@@ -19,7 +19,7 @@ const Projects = () => {
         </p>
         <h2 className='py-4 text-gray-300'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 hover:shadow-[#00bfff] rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
@@ -46,7 +46,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 hover:shadow-[#00bfff] rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
@@ -73,7 +73,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 hover:shadow-[#00bfff] rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
@@ -100,7 +100,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-100 hover:shadow-[#00bfff] rounded-xl group hover:bg-[#111111] hover:scale-105 ease-in duration-200'>
             <Image
               className='rounded-xl group-hover:opacity-10'
               src={WIP_IMG}
