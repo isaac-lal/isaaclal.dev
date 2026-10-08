@@ -27,7 +27,7 @@ const Main = () => {
               href='https://www.linkedin.com/in/isaac-lal/'
               target='_blank'
               rel='noreferrer'>
-              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-xl text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
             </a>
@@ -35,17 +35,17 @@ const Main = () => {
               href='https://github.com/isaac-lal'
               target='_blank'
               rel='noreferrer'>
-              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-xl text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
               </div>
             </a>
             <Link href='mailto:isaaclal124@gmail.com'>
-              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-xl text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
             </Link>
             <Link href='https://drive.google.com/file/d/1t49qY5hB5HiJJeOpuKQQ4UUfWnGKEKsB/view?usp=sharing'>
-              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-6 text-xl text-gray-100 hover:text-[#00bfff] cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
             </Link>
