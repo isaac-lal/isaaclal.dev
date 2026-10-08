@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#000000');
-  
+
   const handleNav = () => {
     setNav(!nav);
   };
@@ -47,8 +47,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul
-            className='hidden md:flex'>
+          <ul className='hidden md:flex'>
             <li className='ml-10 text-sm text-gray-100 uppercase hover:text-[#00bfff] hover:border-b border-[#00bfff] ease-in duration-100'>
               <Link href='/'>Home</Link>
             </li>
@@ -69,7 +68,10 @@ const Navbar = () => {
           <div
             onClick={handleNav}
             className='md:hidden'>
-            <AiOutlineMenu size={25} className='cursor-pointer text-gray-100' />
+            <AiOutlineMenu
+              size={25}
+              className='cursor-pointer text-gray-100'
+            />
           </div>
         </div>
       </div>
