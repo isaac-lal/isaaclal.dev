@@ -36,6 +36,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-100 rounded-xl uppercase bg-gradient-to-r from-[#00bfff] to-[#709dff] text-white;
+    @apply rounded-xl uppercase text-white border border-gray-300 bg-[#323232] hover:text-[#111111] ease-in duration-200 hover:bg-[#00bfff];
   }
 }
