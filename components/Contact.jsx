@@ -24,7 +24,9 @@ const Contact = () => {
               encType='multipart/form-data'>
               <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                 <div className='flex flex-col'>
-                  <label className='uppercase text-sm text-gray-100 py-2'>Name</label>
+                  <label className='uppercase text-sm text-gray-100 py-2'>
+                    Name
+                  </label>
                   <input
                     className='border-2 rounded-lg p-3 flex bg-[#121212] text-gray-100 border-gray-600'
                     type='text'
@@ -32,7 +34,9 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col'>
-                  <label className='uppercase text-sm text-gray-100 py-2'>Phone Number</label>
+                  <label className='uppercase text-sm text-gray-100 py-2'>
+                    Phone Number
+                  </label>
                   <input
                     className='border-2 rounded-lg p-3 flex bg-[#121212] text-gray-100 border-gray-600'
                     type='text'
@@ -41,7 +45,9 @@ const Contact = () => {
                 </div>
               </div>
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm text-gray-100 py-2'>Email</label>
+                <label className='uppercase text-sm text-gray-100 py-2'>
+                  Email
+                </label>
                 <input
                   className='border-2 rounded-lg p-3 flex bg-[#121212] text-gray-100 border-gray-600'
                   type='email'
@@ -49,7 +55,9 @@ const Contact = () => {
                 />
               </div>
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm text-gray-100 py-2'>Subject</label>
+                <label className='uppercase text-sm text-gray-100 py-2'>
+                  Subject
+                </label>
                 <input
                   className='border-2 rounded-lg p-3 flex bg-[#121212] text-gray-100 border-gray-600'
                   type='text'
@@ -57,7 +65,9 @@ const Contact = () => {
                 />
               </div>
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm text-gray-100 py-2'>Message</label>
+                <label className='uppercase text-sm text-gray-100 py-2'>
+                  Message
+                </label>
                 <textarea
                   className='border-2 rounded-lg p-3 flex bg-[#121212] text-gray-100 border-gray-600'
                   rows='10'
@@ -74,9 +84,7 @@ const Contact = () => {
         <Link href='/'>
           <a>
             <div className='rounded-full text-gray-100 hover:text-[#00bfff] shadow-lg shadow-gray-100 hover:shadow-[#00bfff] p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <HiOutlineChevronDoubleUp
-                size={30}
-              />
+              <HiOutlineChevronDoubleUp size={30} />
             </div>
           </a>
         </Link>
