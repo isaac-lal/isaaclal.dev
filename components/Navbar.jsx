@@ -144,7 +144,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className='pt-80'>
+            <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#00bfff] text-center'>
                 Let&#39;s Connect
               </p>
