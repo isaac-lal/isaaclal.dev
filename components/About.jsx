@@ -11,7 +11,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#00bfff]'>
             About
           </p>
-          <h2 className='py-4 text-gray-300'>Who I Am</h2>
+          <h2 className='py-4 text-gray-400'>Who I Am</h2>
           <p className='py-2 text-gray-100'>
             I started learning to code during my senior year of high school, when I took an Introduction to Programming course and learned Python. The course was extremely fun and made me want to learn more about coding. In college, I learned C++ and worked on systems-level projects through the terminal, which helped build my coding foundation. Afterward, I began learning web development with HTML, CSS, and JavaScript, creating a couple of basic static-site projects.
 </p>
