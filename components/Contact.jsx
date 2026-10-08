@@ -16,7 +16,7 @@ const Contact = () => {
           Contact
         </p>
         <h2 className='py-4 text-gray-400'>Get In Touch</h2>
-        <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-100 hover:shadow-[#00bfff] rounded-xl lg:p-4  hover:scale-105 ease-in duration-300'>
+        <div className='col-span-3 w-full h-auto shadow-lg shadow-gray-100 hover:shadow-[#00bfff] rounded-xl lg:p-4  hover:scale-105 ease-in duration-300'>
           <div className='p-4'>
             <form
               action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
