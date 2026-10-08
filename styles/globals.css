@@ -36,6 +36,6 @@ html {
   }
 
   button {
-    @apply rounded-xl uppercase text-white border border-gray-300 bg-[#323232] hover:text-[#111111] ease-in duration-200 hover:bg-[#00bfff];
+    @apply rounded-xl uppercase text-gray-100 border border-gray-300 bg-[#323232] hover:text-[#111111] ease-in duration-200 hover:bg-[#00bfff];
   }
 }
