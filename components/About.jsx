@@ -22,7 +22,7 @@ const About = () => {
             This gave me a better understanding of the web as a whole and how its components work together in each project to communicate between the client and server. These projects helped me understand how the web interacts with users and how projects function within an environment. They have definitely inspired me to continue pursuing web development and creating even more interactive websites!
           </p>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-100 hover:shadow-[#00bfff] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-lg shadow-gray-100 hover:shadow-[#00bfff] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={About_IMG} className='rounded-xl' alt='/' width={756} height={1008}/>
         </div>
       </div>
